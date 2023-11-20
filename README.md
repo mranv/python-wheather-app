@@ -1,5 +1,95 @@
+
 # Weather App
-This weather web app built with Flask and OpenWeather API displays the weather forecast for any city. I designed a simplistic UI to make it easier for the user to find the relevant information. All HTML, CSS, and Python code was written from scratch and the CSS is optimised for mobile and desktop through the use of CSS grid, flexbox, and media queries.
+
+This Weather App is a Flask-based web application that provides weather forecasts using the OpenWeatherMap API.
+
+## Getting Started
+
+These instructions will guide you through setting up and running the application on your local machine.
+
+### Prerequisites
+
+- Python 3
+- pip (Python package manager)
+- Access to the terminal or command line interface
+
+### Installation
+
+Follow these steps to get your development environment running:
+
+#### Step 1: Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone git@github.com:Infopercept/python-weather-app.git
+cd python-weather-app
+```
+
+#### Step 2: Create a Virtual Environment
+
+Create a virtual environment in the project directory:
+
+```bash
+# For Unix or MacOS
+python3 -m venv venv
+
+# For Windows
+python -m venv venv
+```
+
+#### Step 3: Activate the Virtual Environment
+
+Activate the virtual environment:
+
+```bash
+# For Unix or MacOS
+source venv/bin/activate
+
+# For Windows
+.\venv\Scripts\activate
+```
+
+#### Step 4: Install Dependencies
+
+Install the required packages using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 5: Set Up the Environment Variable
+
+Set up the `OWM_API_KEY` environment variable with your OpenWeatherMap API key:
+
+```bash
+# For Unix or MacOS
+export OWM_API_KEY='your_api_key_here'
+
+# For Windows
+set OWM_API_KEY=your_api_key_here
+```
+
+#### Step 6: Run the Application
+
+Run the Flask application:
+
+```bash
+python main.py
+```
+
+### Accessing the Application
+
+Once the application is running, open your web browser and navigate to `http://localhost:5000` to view the Weather App.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/Infopercept/python-weather-app/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Infopercept/python-weather-app/LICENSE.md) file for details.
+
 
 ## Screenshots (Desktop)
 <img src="/screenshots/weather_app_desktop_home_page_screenshot.png">
